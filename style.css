@@ -1,0 +1,77 @@
+:root {
+    /* 🎨 Colors */
+    --white: hsl(0, 0%, 100%);
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+
+    /* ✍️ Typography */
+    --font-family-base: 'Outfit', sans-serif;
+    --font-size-body: 15px;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--slate-300);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+p {
+    font-size: 15px;
+}
+
+.qr-card {
+    background-color: var(--white);
+    border-radius: 16px;
+    padding: 16px 16px 40px 16px;
+    width: 320px;
+    height: 499px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.qr-image img {
+    width: 100%;
+    display: block;
+    border-radius: 16px;
+}
+
+.qr-heading {
+    width: 256px;
+    font-weight: 700;
+    color: var(--slate-900);
+    display: block;
+}
+
+.qr-heading {
+    color: var(--slate-900);
+    margin: 16px auto 0 auto; /* optional: spacing from image */
+    text-align: left;
+}
+
+.qr-heading h2 {
+    font-size: 18px;        
+    line-height: 1.4;        
+    margin: 0;              
+    word-wrap: break-word;  
+    font-weight: 900; 
+    font-size: 23px;
+    margin-bottom: 16px;
+}
+
+
+.qr-para p {
+    text-align: center;
+    color: var(--slate-500);
+    font-size: 18px;
+}
